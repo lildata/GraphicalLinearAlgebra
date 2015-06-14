@@ -1,8 +1,6 @@
 import breeze.linalg._
 
-/**
- * Created by fred on 6/14/15.
- */
+
 object Test1 extends App {
   val m_generator_add =     DenseMatrix((1,1))
   val m_generator_zero =   DenseMatrix.zeros[Int](1,0)
