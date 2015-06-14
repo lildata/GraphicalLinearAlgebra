@@ -16,7 +16,7 @@ object Test1 extends App {
   val b = ⊕(⊕(m_wiring_identity, m_wiring_twist), m_wiring_identity)
   val c = ⊕(m_generator_copy, m_generator_copy)
 
-  println( a :* b :* c  )
+  println( a :* b /*:* c */ )
 
   //println( m_generator_copy :* m_generator_add)
 
