@@ -2,8 +2,9 @@ import breeze.linalg._
 
 
 object Test1 extends App {
+
   val m_generator_add =     DenseMatrix((1,1))
-  val m_generator_zero =   DenseMatrix.zeros[Int](1,0)
+  val m_generator_zero =    DenseMatrix.zeros[Int](1,0)
   val m_generator_copy =    DenseMatrix((1),(1))
   val m_generator_discard = DenseMatrix.zeros[Int](0,1)
 
